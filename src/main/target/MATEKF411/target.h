@@ -75,10 +75,10 @@
 #define UART2_RX_PIN            PA3
 #define UART2_TX_PIN            PA2
 
-//#define USE_SOFTSERIAL1
+#define USE_SOFTSERIAL1
 //#define USE_SOFTSERIAL2
-//#define SOFTSERIAL1_RX_PIN      PB3 // S5
-//#define SOFTSERIAL1_TX_PIN      PB10  // S6
+#define SOFTSERIAL_1_RX_PIN      PB3 // S5
+#define SOFTSERIAL_1_TX_PIN      PB10  // S6
 
 #define SERIAL_PORT_COUNT       5
 
