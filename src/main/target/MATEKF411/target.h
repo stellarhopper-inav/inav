@@ -35,20 +35,20 @@
 #define SPI1_MISO_PIN   	    PA6
 #define SPI1_MOSI_PIN   	    PA7
 
-#define MPU6500_CS_PIN          PA4
-#define MPU6500_SPI_INSTANCE    SPI1
+#define MPU6000_CS_PIN          PA4
+#define MPU6000_SPI_INSTANCE    SPI1
 
 #define USE_EXTI
 #define MPU_INT_EXTI            PA1
 #define USE_MPU_DATA_READY_SIGNAL
 
 #define GYRO
-#define USE_GYRO_SPI_MPU6500
-#define GYRO_MPU6500_ALIGN      CW180_DEG
+#define USE_GYRO_SPI_MPU6000
+#define GYRO_MPU6000_ALIGN      CW180_DEG
 
 #define ACC
-#define USE_ACC_SPI_MPU6500
-#define ACC_MPU6500_ALIGN       CW180_DEG
+#define USE_ACC_SPI_MPU6000
+#define ACC_MPU6000_ALIGN       CW180_DEG
 
 // *************** OSD *****************************
 #define USE_SPI_DEVICE_2
@@ -80,7 +80,7 @@
 #define SOFTSERIAL_1_RX_PIN      PB3 // S5
 #define SOFTSERIAL_1_TX_PIN      PB10  // S6
 
-#define SERIAL_PORT_COUNT       5
+#define SERIAL_PORT_COUNT       4
 
 #define DEFAULT_RX_TYPE         RX_TYPE_SERIAL
 #define SERIALRX_PROVIDER       SERIALRX_SBUS
